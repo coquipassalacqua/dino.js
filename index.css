@@ -1,0 +1,22 @@
+/* Estilos básicos para centrar el juego y darle un fondo limpio */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f3adad;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+canvas {
+  border: 1px solid #000;
+  background: #ffff;
+}
+
+#restartBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
